@@ -1,7 +1,11 @@
 import AcmeLogo from '@/app/ui/acme-logo';
 import { Suspense } from 'react';
 import RegisterForm from '@/app/ui/register-form';
+import { Metadata } from 'next';
  
+export const metadata: Metadata ={
+  title: "register"
+}
 export default function RegisterPage() {
   return (
     <main className="flex items-center justify-center md:h-screen">
