@@ -168,7 +168,7 @@ export type UserState = {
   message?: string | null;
 };
 export async function register(
-  prevState: string | undefined,
+  prevState: UserState | undefined,
   formData: FormData,
 ){
  try {
